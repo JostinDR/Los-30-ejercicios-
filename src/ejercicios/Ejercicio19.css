@@ -1,0 +1,129 @@
+.ej19 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 480px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.ej19 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej19-contador {
+  margin: 0;
+  text-align: center;
+  color: var(--muted);
+}
+
+.ej19-contador strong { color: var(--accent); }
+
+.ej19-coef {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.ej19 label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.ej19 input {
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.ej19-botones { display: flex; gap: 8px; }
+
+.ej19-botones button,
+.ej19-fin button {
+  flex: 1;
+  font: inherit;
+  padding: 10px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.ej19 .ej19-calcular {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.ej19-error { color: #d64545; margin: 0; }
+
+.ej19-resultado,
+.ej19-historial,
+.ej19-fin {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: var(--bg);
+}
+
+.ej19-resultado h3,
+.ej19-historial h3 {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.ej19-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ej19-tabla th,
+.ej19-tabla td {
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ej19-tabla th { text-align: left; font-weight: 500; }
+
+.ej19-tabla td {
+  text-align: right;
+  padding-left: 24px;
+  font-weight: 800;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.ej19-scroll { overflow-x: auto; }
+
+.ej19-hist {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.ej19-hist th,
+.ej19-hist td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.ej19-hist th:first-child,
+.ej19-hist td:first-child { text-align: center; }
+
+.ej19-fin {
+  text-align: center;
+}
+
+.ej19-fin p { margin: 0 0 10px; font-weight: 700; }
+.ej19-fin button { width: 100%; }

@@ -1,0 +1,63 @@
+.ej30 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 360px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.ej30 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej30 label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ej30 input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.ej30-botones { display: flex; gap: 8px; }
+
+.ej30-botones button {
+  flex: 1;
+  font: inherit;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+
+.ej30-botones .ej30-limpiar {
+  border: 2px solid var(--line);
+  background: none;
+  color: var(--ink);
+}
+
+.ej30-resultado {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  background: var(--bg);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.ej30-ok { color: var(--accent); border-color: var(--accent); }
+.ej30-mal { color: #d64545; border-color: #d64545; }

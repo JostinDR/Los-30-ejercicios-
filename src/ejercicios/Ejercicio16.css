@@ -1,0 +1,82 @@
+.ej16 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 400px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.ej16 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej16 label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.ej16 input {
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.ej16-leidos small,
+.ej16-aviso { color: var(--muted); }
+
+.ej16-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.ej16-chip {
+  min-width: 32px;
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Otras vocales (no la primera) */
+.ej16-vocal {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* La primera vocal */
+.ej16-primera {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.ej16-resultado {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: var(--bg);
+  text-align: center;
+}
+
+.ej16-resultado p { margin: 4px 0; }
+.ej16-resultado small { color: var(--muted); }
+.ej16-total { font-size: 2.4rem; font-weight: 800; color: var(--accent); }
+
+.ej16-reiniciar {
+  font: inherit;
+  padding: 10px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}

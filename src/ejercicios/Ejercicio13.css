@@ -1,0 +1,65 @@
+.ej13 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 400px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.ej13 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej13 label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.ej13 input {
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.ej13-botones { display: flex; gap: 8px; }
+
+.ej13-botones button {
+  flex: 1;
+  font: inherit;
+  padding: 10px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.ej13-botones .ej13-calcular {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.ej13-error { color: #d64545; margin: 0; }
+
+.ej13-resultado {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: var(--bg);
+}
+
+.ej13-resultado p { margin: 6px 0; }
+.ej13-pasos { color: var(--muted); }
+
+.ej13-total {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  word-break: break-all; /* los factoriales grandes son muy largos */
+}

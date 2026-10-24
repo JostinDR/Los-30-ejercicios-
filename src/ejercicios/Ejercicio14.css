@@ -1,0 +1,125 @@
+.ej14 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 420px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.ej14 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej14 label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.ej14 input {
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.ej14-botones { display: flex; gap: 8px; }
+
+.ej14-botones button,
+.ej14-otra {
+  flex: 1;
+  font: inherit;
+  padding: 10px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.ej14-botones .ej14-calcular {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.ej14-error { color: #d64545; margin: 0; }
+
+.ej14-progreso {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.ej14-barra {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.2s;
+}
+
+.ej14-contador { color: var(--muted); }
+
+.ej14-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.ej14-chip {
+  padding: 2px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg);
+  font-variant-numeric: tabular-nums;
+}
+
+.ej14-resultado {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  background: var(--bg);
+}
+
+.ej14-resultado h3 {
+  margin: 0 0 8px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.ej14-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+.ej14-tabla th,
+.ej14-tabla td {
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ej14-tabla th { text-align: left; font-weight: 500; }
+
+.ej14-tabla td {
+  text-align: right;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.ej14-tabla .ej14-total th,
+.ej14-tabla .ej14-total td {
+  border-bottom: 0;
+  border-top: 2px solid var(--ink);
+  padding-top: 12px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.ej14-resultado .ej14-otra { width: 100%; }

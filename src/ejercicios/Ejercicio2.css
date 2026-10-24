@@ -1,0 +1,58 @@
+.ej2 {
+    display: flex;
+    flex-direction: column;
+    gap:  14px;
+    width: 100%;
+    max-width: 360px;
+    color: var(--ink);
+    text-align: left;
+}
+
+.ej2 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej2 label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.ej2 input {
+font: inherit;
+padding: 10px 12px ;
+border: 2px solid var(--line);
+border-radius: 10px;
+background: var(--bg);
+color: var(--ink);
+}
+
+.ej2-botones { display: flex; gap: 8px; }
+
+.ej2-botones button {
+    flex: 1;
+    font: inherit;
+    padding: 10px;
+    border: 2px solid var(--line);
+    border-radius: 10px;
+    background: none;
+    color: var(--ink);
+    cursor: pointer;
+}
+
+.ej2-botones .ej2-calcular {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+}
+
+.ej2-error { color: #d64545; margin: 0; }
+
+.ej2-resultado {
+    border: 2px solid var(--line);
+    border-radius: 12px;
+    padding: 12px 16px;
+    background: var(--bg);
+}
+
+.ej2-resultado p { margin: 4px 0; }
+.ej2-total { font-size: 1.3rem; font-weight: 800; color: var(--accent); }

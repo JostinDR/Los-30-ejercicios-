@@ -1,0 +1,46 @@
+.ej21 {
+    display: flex;
+    flex-direction: column;
+    gap: 12pxp;
+    width: 100%;
+    max-width: 360px;
+    color: var(--ink);
+    text-align: left;
+}
+
+.ej21 h2 { margin: 0 0 4px; text-align: center; }
+
+.ej21 label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.ej21 input {
+    font: inherit;
+    padding: 10px 12px;
+    border: 2px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--ink);
+}
+
+.ej21 button {
+    font: inherit;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    cursor: pointer;
+}
+
+.ej21-resultado {
+    border: 2px solid var(--line);
+    border-radius: 12px;
+    padding: 12px 16px;
+    background: var(--bg);
+}
+
+.ej21-resultado p { margin: 4px 0; }
